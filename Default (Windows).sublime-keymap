@@ -8,7 +8,7 @@
     // -----------------
     // Personal Plug-ins 
     // -----------------
-    // Log Stamp 
+    // Time 
     { "keys": ["ctrl+m", "ctrl+s"], "command": "time_stamp" },
     { "keys": ["ctrl+m", "ctrl+l"], "command": "time_list" },
 
@@ -16,7 +16,6 @@
     // Package: Alignment 
     // ------------------
     { "keys": ["ctrl+alt+="], "command": "alignment" },
-
 
     // ----------------------
     // Package: Critic Markup
@@ -51,7 +50,6 @@
     // -------------------------------
     // Package: SublimeAstyleFormatter
     // -------------------------------
-
     {
         "keys": ["ctrl+k", "ctrl+d"], "command": "astyleformat",
         "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
@@ -60,4 +58,10 @@
         "keys": ["ctrl+k", "ctrl+f"], "command": "astyleformat", "args": {"selection_only": true},
         "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
     },
+
+    // ------------------
+    // Important Shortcut
+    // ------------------
+    // ctrl+1 Pane 1
+    // ctrl+2 Pane 2
 ]

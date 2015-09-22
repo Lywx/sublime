@@ -4,30 +4,25 @@
 		"refactor",
 		"refactored"
 	],
-
-	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
-	"theme": "predawn-DEV.sublime-theme",
-
 	"auto_find_in_selection": true,
+	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
 	"findreplace_small": true,
-
 	"font_face": "Yahei Consolas Hybrid",
 	"font_size": 11,
-
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Markdown"
 	],
-
-	"rulers": [ 80 ],
-	"word_wrap": false,
-
+	"rulers":
+	[
+		80
+	],
 	"spell_check": true,
-
 	"tab_size": 4,
 	"tabs_small": true,
-	"highlight_modified_tabs": true,
-
+	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintage_ctrl_keys": true,
+	"word_wrap": false
 }
