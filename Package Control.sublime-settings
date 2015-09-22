@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AcademicMarkdown",
+		"Alignment",
+		"Citer",
+		"CMake",
+		"CMakeEditor",
+		"CMakeSnippets",
+		"Console Exec",
+		"F#",
+		"GenerateUUID",
+		"MarkdownEditing",
+		"Package Control",
+		"ScopeAlways",
+		"SideBarEnhancements",
+		"sublime-text-2-buildview",
+		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeREPL",
+		"Tag",
+		"Vintage Numbers",
+		"VintageLines",
+		"Wrap Plus",
+		"Zen Tabs"
+	]
+}

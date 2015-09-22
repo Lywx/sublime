@@ -1,0 +1,25 @@
+{
+	"added_words":
+	[
+		"refactor",
+		"refactored"
+	],
+	"auto_find_in_selection": true,
+	"color_scheme": "Packages/User/SublimeLinter/Espresso Libre (SL).tmTheme",
+	"font_face": "Yahei Consolas Hybrid",
+	"font_size": 11,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown"
+	],
+	"rulers":
+	[
+		80
+	],
+	"spell_check": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"vintage_ctrl_keys": true,
+	"word_wrap": false
+}

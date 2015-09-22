@@ -1,0 +1,63 @@
+[
+    // ----------------------
+    // Sublime Text Built-ins
+    // ----------------------
+    { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
+    { "keys": ["ctrl+alt+;"], "command": "reveal_in_side_bar" },
+
+    // -----------------
+    // Personal Plug-ins 
+    // -----------------
+    // Log Stamp 
+    { "keys": ["ctrl+m", "ctrl+s"], "command": "time_stamp" },
+    { "keys": ["ctrl+m", "ctrl+l"], "command": "time_list" },
+
+    // ------------------
+    // Package: Alignment 
+    // ------------------
+    { "keys": ["ctrl+alt+="], "command": "alignment" },
+
+
+    // ----------------------
+    // Package: Critic Markup
+    // ----------------------
+    { "keys": ["ctrl+m", "ctrl+a"], "command": "accept_critic" },
+    { "keys": ["ctrl+m", "ctrl+m"], "command": "mark_critic" },
+
+    // --------------------
+    // Package: SublimeREPL
+    // --------------------
+
+    // Open F# Interactive
+    {
+        "keys": ["ctrl+alt+f"], 
+        "args": {"id": "repl_f#", "file": "config/F/Main.sublime-menu"},
+        "command": "run_existing_window_command"
+    },
+
+    // Evaluate in REPL (has to open F# interactive first):
+    // ctrl+,, s Selection
+    // ctrl+,, f File
+    // ctrl+,, l Lines
+    // ctrl+,, b Block
+    
+    // Transfer in REPL (just copy, without evaluating it):
+    // ctrl+shift+,, s Selection
+    // ctrl+shift+,, f File
+    // ctrl+shift+,, l Lines
+    // ctrl+shift+,, b Block
+
+
+    // --------------------
+    // Package: SublimeAstyleFormatter
+    // --------------------
+
+    {
+        "keys": ["ctrl+k", "ctrl+d"], "command": "astyleformat",
+        "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+f"], "command": "astyleformat", "args": {"selection_only": true},
+        "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
+    }
+]
