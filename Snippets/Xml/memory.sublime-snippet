@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<memory>
+  <author>Wuxiang Lin</author>
+  <date>${1:date}</date>
+  <tag>${2:tag}</tag>
+  <id>${3:uuid}</id>
+  <content>
+    <![CDATA[${4:content}]]
+  </content>
+</memory>
+]]>
+</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>memory</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+</snippet>

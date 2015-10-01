@@ -2,6 +2,10 @@
     // ----------------------
     // Sublime Text Built-ins
     // ----------------------
+    // Unbind for vim movement
+    { "keys": ["ctrl+b"] },
+
+    // Bind
     { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
     { "keys": ["ctrl+alt+;"], "command": "reveal_in_side_bar" },
 
