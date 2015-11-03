@@ -15,6 +15,8 @@
     // Sidebar
     { "keys": ["ctrl+alt+;"], "command": "reveal_in_side_bar" },
 
+    { "keys": ["ctrl+w", "ctrl+w"], "command": "close" },
+
     // -----------------
     // Personal Plug-ins 
     // -----------------
@@ -76,6 +78,12 @@
         "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}]
     },
 
+    // --------------------------
+    // Package: CloseOtherWindows
+    // --------------------------
+    {
+        "keys": ["ctrl+w", "ctrl+b"], "command": "close_other_tabs",
+    }   
     // ------------------
     // Important Shortcut
     // ------------------
