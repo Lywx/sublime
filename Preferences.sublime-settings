@@ -4,25 +4,54 @@
 		"refactor",
 		"refactored"
 	],
-	"auto_find_in_selection": true,
-	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
-	"findreplace_small": true,
-	"font_face": "Yahei Consolas Hybrid",
-	"font_size": 11,
-	"highlight_modified_tabs": true,
+	
 	"ignored_packages":
 	[
-		"Markdown"
 	],
-	"rulers":
-	[
-		80
-	],
+
+	/////////////////
+	// Sublime 
+	//
+	// Sublime Control
+	"vintage_ctrl_keys": true,
 	"spell_check": true,
+	"auto_find_in_selection": true,
+	"findreplace_small": true,
+	"highlight_modified_tabs": true,
+	//
+	// Sublime Font
+	"font_face": "Yahei Consolas Hybrid",
+	"font_size": 11,
+	//
+	// Sublime Look
 	"tab_size": 4,
 	"tabs_small": true,
-	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_ctrl_keys": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"rulers": [80],
+
+	/////////////////
+	// Predawn Scheme
+	//
+	"theme": "predawn-DEV.sublime-theme",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	//
+	// Panel Options
+	"predawn_findreplace_small": true,
+	"predawn_quick_panel_small": true,
+	//
+	// Sidebar Options
+	"predawn_sidebar_arrows": true,
+	"predawn_sidebar_large": false,
+	"predawn_sidebar_medium": true,
+	"predawn_sidebar_narrow": true,
+	"predawn_sidebar_small": false,
+	"predawn_sidebar_xlarge": false,
+	"predawn_sidebar_xsmall": true,
+	//
+	// Tabs Options
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_large": false,
+	"predawn_tabs_medium": true,
+	"predawn_tabs_small": false,
 }
