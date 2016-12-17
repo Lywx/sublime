@@ -23,6 +23,13 @@
 
     { "keys": ["ctrl+w", "ctrl+w"], "command": "close" },
 
+    // Visual Studio
+    { "keys": ["alt+-"], "command": "pass" },
+    { "keys": ["alt+shift+-"], "command": "pass" },
+
+    { "keys": ["ctrl+-"], "command": "jump_back" },
+    { "keys": ["ctrl+shift+-"], "command": "jump_forward" },
+
     // -----------------
     // Personal Plug-ins 
     // -----------------
