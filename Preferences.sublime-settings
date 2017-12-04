@@ -7,7 +7,7 @@
 	"auto_find_in_selection": true,
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"findreplace_small": true,
-	"font_face": "Yahei Consolas Hybrid",
+	"font_face": "Consolas-with-Yahei",
 	"font_size": 11,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -32,7 +32,7 @@
 	],
 	"spell_check": true,
 	"tab_size": 4,
-	"tabs_small": true,
+	"tabs_small": false,
 	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintage_ctrl_keys": true,
