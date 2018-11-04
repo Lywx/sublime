@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Anaconda",
 		"Citer",
 		"CloseOtherWindows",
 		"CMake",
@@ -22,6 +23,7 @@
 		"OpenGL Shading Language (GLSL)",
 		"Package Control",
 		"Predawn",
+		"Python 3",
 		"ScopeAlways",
 		"SideBarEnhancements",
 		"sublime-text-2-buildview",
