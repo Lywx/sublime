@@ -1,4 +1,5 @@
-{
+{    
     "anaconda_linting": false,
     "python_interpreter": "D:/Program_Files/Anaconda2/python",
+    "swallow_startup_errors": true,
 }

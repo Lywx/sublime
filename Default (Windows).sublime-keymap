@@ -17,6 +17,7 @@
     // Edit
     { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
     { "keys": ["ctrl+k", "ctrl+s"], "command": "swap_case" },
+    { "keys": ["ctrl+w", "ctrl+a"], "command": "select_all" },
 
     // Sidebar
     { "keys": ["ctrl+alt+;"], "command": "reveal_in_side_bar" },
