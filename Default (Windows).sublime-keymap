@@ -17,9 +17,11 @@
     // Edit
     { "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
     { "keys": ["ctrl+k", "ctrl+s"], "command": "swap_case" },
+    { "keys": ["ctrl+w", "ctrl+a"], "command": "select_all" },
 
     // Sidebar
-    { "keys": ["ctrl+alt+;"], "command": "reveal_in_side_bar" },
+    { "keys": ["ctrl+;"], "command": "pass"},
+    { "keys": ["ctrl+;"], "command": "reveal_in_side_bar" },
 
     { "keys": ["ctrl+w", "ctrl+w"], "command": "close" },
 
@@ -96,7 +98,23 @@
     // --------------------------
     {
         "keys": ["ctrl+w", "ctrl+b"], "command": "close_other_tabs",
-    }   
+    },
+
+    // --------------------------
+    // Package: Anaconda
+    // --------------------------
+    {
+        "command": "anaconda_goto", "keys": ["f12"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]},
+    {
+        "command": "anaconda_find_usages", "keys": ["shift+f12"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]},
+    {
+        "command": "anaconda_doc", "keys": ["shift+tab"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]},
     // ------------------
     // Important Shortcut
     // ------------------
