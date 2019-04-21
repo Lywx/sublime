@@ -31,7 +31,7 @@
 	[
 		80
 	],
-	"spell_check": true,
+	"spell_check": false,
 	"tab_size": 4,
 	"tabs_small": false,
 	"theme": "predawn-DEV.sublime-theme",
