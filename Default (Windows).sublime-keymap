@@ -20,9 +20,11 @@
     { "keys": ["ctrl+w", "ctrl+a"], "command": "select_all" },
 
     // Sidebar
-    { "keys": ["ctrl+alt+;"], "command": "reveal_in_side_bar" },
+    { "keys": ["ctrl+;"], "command": "reveal_in_side_bar" },
 
     { "keys": ["ctrl+w", "ctrl+w"], "command": "close" },
+    { "keys": ["ctrl+w", "ctrl+a"], "command": "select_all" },
+
 
     // Visual Studio
     { "keys": ["alt+-"], "command": "pass" },

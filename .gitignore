@@ -7,4 +7,7 @@ Package Control.user-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
 
+encoding_cache.json
+oscrypto-ca-bundle.crt
+
 .SublimeREPLHistory/
