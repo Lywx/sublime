@@ -10,6 +10,7 @@
 	"font_face": "Consolas-with-Yahei",
 	"font_size": 13,
 	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 	],
@@ -30,7 +31,7 @@
 	[
 		80
 	],
-	"spell_check": true,
+	"spell_check": false,
 	"tab_size": 4,
 	"tabs_small": false,
 	"theme": "predawn-DEV.sublime-theme",

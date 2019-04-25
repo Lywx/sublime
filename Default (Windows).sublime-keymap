@@ -95,11 +95,27 @@
     },
 
     // --------------------------
-    // Package: CloseOtherWindows
+    // Package: Close Other Windows
     // --------------------------
     {
         "keys": ["ctrl+w", "ctrl+b"], "command": "close_other_tabs",
-    }   
+    },
+
+    // --------------------------
+    // Package: Anaconda
+    // --------------------------
+    {
+        "command": "anaconda_goto", "keys": ["f12"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]},
+    {
+        "command": "anaconda_find_usages", "keys": ["shift+f12"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]},
+    {
+        "command": "anaconda_doc", "keys": ["shift+tab"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]},
     // ------------------
     // Important Shortcut
     // ------------------
