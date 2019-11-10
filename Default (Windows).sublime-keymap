@@ -111,10 +111,7 @@
         "command": "anaconda_find_usages", "keys": ["shift+f12"], "context": [
             {"key": "selector", "operator": "equal", "operand": "source.python"}
         ]},
-    {
-        "command": "anaconda_doc", "keys": ["shift+tab"], "context": [
-            {"key": "selector", "operator": "equal", "operand": "source.python"}
-        ]},
+        
     // ------------------
     // Important Shortcut
     // ------------------
