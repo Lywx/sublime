@@ -20,10 +20,11 @@
     { "keys": ["ctrl+w", "ctrl+a"], "command": "select_all" },
 
     // Sidebar
-    { "keys": ["ctrl+;"], "command": "pass"},
     { "keys": ["ctrl+;"], "command": "reveal_in_side_bar" },
 
     { "keys": ["ctrl+w", "ctrl+w"], "command": "close" },
+    { "keys": ["ctrl+w", "ctrl+a"], "command": "select_all" },
+
 
     // Visual Studio
     { "keys": ["alt+-"], "command": "pass" },
@@ -94,7 +95,7 @@
     },
 
     // --------------------------
-    // Package: CloseOtherWindows
+    // Package: Close Other Windows
     // --------------------------
     {
         "keys": ["ctrl+w", "ctrl+b"], "command": "close_other_tabs",
