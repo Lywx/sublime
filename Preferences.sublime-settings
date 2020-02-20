@@ -8,7 +8,7 @@
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"findreplace_small": true,
 	"font_face": "Consolas-with-Yahei",
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -31,6 +31,7 @@
 	[
 		80
 	],
+	"shift_tab_unindent": true,
 	"spell_check": false,
 	"tab_size": 4,
 	"tabs_small": false,
