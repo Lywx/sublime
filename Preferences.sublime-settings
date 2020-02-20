@@ -11,7 +11,9 @@
 	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
-	"ignored_packages": ["Vintage"],
+	"ignored_packages":
+	[
+	],
 	"predawn_findreplace_small": true,
 	"predawn_quick_panel_small": true,
 	"predawn_sidebar_arrows": true,
